@@ -3,7 +3,7 @@
 #include <cstdlib>
 
 int main(int argc, char *argv[]) {
-	if (argc != 3)
+	if (argc != 4)
 		std::cout << "usage: xor <infile> <outfile> <integer(0-255)>" << std::endl;
 	else {
 		std::ifstream infile(argv[1], std::ios::binary);
